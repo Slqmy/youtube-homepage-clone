@@ -71,7 +71,7 @@ button.voice-search-icon div.tooltip,
 div.upload-icon-container div.tooltip,
 div.youtube-apps-container div.tooltip,
 div.notifications-icon-container div.tooltip {
-  font-family: Roboto, Arial;
+  font-family: Roboto, Arial, Helvetica, Verdana, Tahoma, sans-serif;
   position: absolute;
   background-color: gray;
   color: white;
@@ -148,7 +148,7 @@ input.search-box:focus {
 }
 
 input.search-box::placeholder {
-  font-family: Roboto, Arial;
+  font-family: Roboto, Arial, Helvetica, Verdana, Tahoma, sans-serif;
   font-size: 14px;
 }
 
