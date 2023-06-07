@@ -64,26 +64,14 @@ div.video-information-grid {
 
 div.video-previews {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 15px;
   row-gap: 30px;
 }
 
 /* Border not affected by inheritance, mostly with text properties */
 
-@media (max-width: 500px) {
-  div.video-previews {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 750px) {
-  div.video-previews {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 751px) and (max-width: 1199px) {
   div.video-previews {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -118,7 +106,7 @@ div.video-previews {
 div.channel-tooltip-container {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.45);
   border-radius: 4px;
-  width: 250px;
+  width: 200px;
   display: flex;
   z-index: 300;
   background-color: white;
