@@ -66,41 +66,7 @@ div.video-previews {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 15px;
-  row-gap: 30px;
-}
-
-/* Border not affected by inheritance, mostly with text properties */
-
-@media (min-width: 751px) and (max-width: 1199px) {
-  div.video-previews {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (min-width: 1200px) {
-  div.video-previews {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-  p.video-title {
-    font-size: 16px;
-    line-height: 24px;
-  }
-}
-
-@media (min-width: 2000px) {
-  p {
-    font-size: 18px;
-  }
-
-  p.video-title {
-    font-size: 20px;
-    line-height: 28px;
-  }
+  row-gap: 45px;
 }
 
 div.channel-tooltip-container {
@@ -138,4 +104,39 @@ p.tooltip-channel-name {
 p.tooltip-channel-subscribers {
   font-size: 13px;
   color: rgb(143, 143, 143);
+}
+
+/* Border not affected by inheritance, mostly with text properties */
+
+@media (min-width: 751px) and (max-width: 1199px) {
+  div.video-previews {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.video-previews {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  p.video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 2000px) {
+  p.video-author,
+  p.video-info {
+    font-size: 18px;
+  }
+
+  p.video-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
