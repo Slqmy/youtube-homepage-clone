@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended, plugin:@html-eslint/recommended"],
+  "parser": "@html-eslint/parser",
+  "plugins": ["html", "@html-eslint", "@typescript-eslint"],
+  "rules": {
+    "@html-eslint/indent": ["error", "tab"],
+    "@html-eslint/require-closing-tags": "off",
+    "@html-eslint/no-extra-spacing-attrs": "off"
+  }
+}
