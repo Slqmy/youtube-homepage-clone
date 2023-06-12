@@ -1,0 +1,53 @@
+{
+  "name": "youtube-clone",
+  "description": "This was a project I did to learn HTML and CSS. I followed a YouTube course by @SuperSimpleDev and this project was part of the course. I highly recommend the course for beginners who want to learn HTML and CSS.",
+  "author": "@🍉 Slqmy#5014",
+  "version": "1.0.0",
+  "license": "ISC",
+  "keywords": [
+    "css",
+    "html",
+    "learning",
+    "youtube",
+    "clone",
+    "project",
+    "css-grid",
+    "html-css",
+    "cascading-style-sheets",
+    "css-grid-layout",
+    "htmlcss",
+    "css-flexbox",
+    "youtube-clone",
+    "hypertext-markup-language",
+    "css-html",
+    "clone-app",
+    "csshtml",
+    "supersimpledev",
+    "hypertextmarkuplanguage",
+    "cascadingstylesheets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slqmy/YouTube-Homepage-Clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Slqmy/YouTube-Homepage-Clone/issues"
+  },
+  "homepage": "https://github.com/Slqmy/YouTube-Homepage-Clone#readme",
+  "scripts": {
+    "prettier": "npx prettier --write .",
+    "format": "npx prettier --write .",
+    "prettier:check": "npx prettier --check .",
+    "format:check": "npx prettier --check .",
+    "check-prettier": "npx prettier --check .",
+    "eslint": "npx eslint --fix .",
+    "eslint:check": "npx eslint ."
+  },
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.19.0",
+    "@html-eslint/parser": "^0.19.0",
+    "eslint": "^8.42.0",
+    "eslint-plugin-html": "^7.1.0",
+    "prettier": "2.8.8"
+  }
+}
