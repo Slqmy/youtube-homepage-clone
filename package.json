@@ -1,39 +1,42 @@
 {
 	"name": "youtube-homepage-clone",
-	"description": "This was a project I did to learn HTML and CSS. I followed a YouTube course by @SuperSimpleDev and this project was part of the course. I highly recommend the course for beginners who want to learn HTML and CSS.",
-	"author": "@🍉 Slqmy#5014",
+	"description": "A simple clone of the YouTube homepage made using HTML and CSS. I followed a YouTube course by SuperSimpleDev and this was the main project of the course.",
+	"author": {
+		"name": "Slqmy",
+		"url": "https://github.com/Slqmy"
+	},
 	"version": "1.0.0",
 	"license": "ISC",
 	"keywords": [
+		"javascript",
 		"css",
 		"html",
-		"learning",
+		"website",
 		"youtube",
 		"clone",
-		"project",
-		"css-grid",
-		"html-css",
-		"cascading-style-sheets",
-		"css-grid-layout",
-		"htmlcss",
-		"css-flexbox",
+		"js",
+		"webapp",
+		"website-design",
+		"html-css-js",
+		"yt",
+		"web-project",
 		"youtube-clone",
-		"hypertext-markup-language",
-		"css-html",
-		"clone-app",
-		"csshtml",
-		"supersimpledev",
-		"hypertextmarkuplanguage",
-		"cascadingstylesheets"
+		"website-development",
+		"website-project",
+		"clone-website",
+		"youtube-homepage",
+		"youtube-clone-app",
+		"youtube-clone-app-javascript",
+		"supersimpledev"
 	],
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Slqmy/YouTube-Homepage-Clone.git"
 	},
+	"homepage": "https://github.com/Slqmy/YouTube-Homepage-Clone#readme",
 	"bugs": {
 		"url": "https://github.com/Slqmy/YouTube-Homepage-Clone/issues"
 	},
-	"homepage": "https://github.com/Slqmy/YouTube-Homepage-Clone#readme",
 	"scripts": {
 		"prettier": "npx prettier --write .",
 		"format": "npx prettier --write .",
